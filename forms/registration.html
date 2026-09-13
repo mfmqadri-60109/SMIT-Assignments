@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+
+<body>
+    <h2>STUDENT REGISTRATION FORM :</h2>
+    <p><label>Name:</label>
+        <input type="text" placeholder="Enter your name"><br />
+    </p>
+    <p><label>Email:</label>
+        <input type="email" placeholder="Enter your email"><br />
+    </p>
+    <p><label>Password:</label>
+        <input type="password" placeholder="Enter your password"><br />
+    </p>
+    <p><label>Age:</label>
+        <input type="text" placeholder="Enter your Age" maxlength="2"><br />
+    </p>
+    <p><label>Date of birth:</label>
+        <input type="date"><br />
+    </p>
+    <form>
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female"> Female
+        </p>
+    </form>
+    <label>Select course:</label>
+    <select>
+        <option value="Select a course">Select a course</option>
+        <option value="Modern Web Development">Modern Web Development</option>
+        <option value="Graphic Designing">Graphic Designing</option>
+        <option value="Flutter App Development">Flutter App Development</option>
+        <option value="Freelancing">Freelancing</option>
+        <option value="AI with python">AI with python</option>
+    </select>
+    <p><label>Phone No:</label>
+        <input type="text" placeholder="03XX XXXXXXX" maxlength="12"><br />
+    </p>
+    <label for="textarea">Address:</label> <br />
+    <textarea style="size-adjust: inherit ;"></textarea>
+    <p>
+        <label>Hobbies:</label> <br />
+        <input type="checkbox" value="coding">coding <br />
+        <input type="checkbox" value="reading">reading <br />
+        <input type="checkbox" value="sports">sports <br />
+    </p>
+    <p>Upload Photo: <input type="button" value="Choose file">&nbsp;No file chosen</p>
+    <p><input type="button" value="Register"><input type="button" value="Reset"></p>
+</body>
+
+</html>

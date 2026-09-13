@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #2e4c9c ;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 1px solid white;
+
+}
+div{
+    justify-content: center;
+    align-items: center;
+    
+}

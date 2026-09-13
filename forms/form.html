@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            margin: 2px;
+        }
+
+        fieldset {
+            margin: 10px;
+        }
+
+        legend {
+            font-size: 18px;
+            font-style: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Your Details:</legend>
+        <label>Name: <input type="text" maxlength="20"></label> <br />
+        <label>Email: <input type="email" maxlength="35"></label>
+    </fieldset>
+    <fieldset>
+        <legend>Your Review</legend>
+        <p> How did you hear about us? </p>
+        <select>
+            <option value="Google">Google</option>
+            <option value="Radio">Radio</option>
+            <option value="Newspaper">Newspaper</option>
+            <option value="Television">Television</option>
+        </select>
+        <form>
+            <p> Would you visit again?
+                <br />
+                <input type="radio" name="g" value="Yes" checked="checked" /> Yes
+                <input type="radio" name="g" value="No" />
+                No
+                <input type="radio" name="g" value="Maybe" />
+                Maybe
+            </p>
+        </form>
+        <label for="textarea">Comments:</label> <br />
+        <textarea></textarea> <br >
+      <p><input type="checkbox" /> Sign me up for email updates </p> 
+        <input type="submit" value="Submit" />
+    </fieldset>
+</body>
+
+</html>
