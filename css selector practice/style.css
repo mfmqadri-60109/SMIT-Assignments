@@ -1,0 +1,67 @@
+      /* Universal Selector */
+
+      * {
+          background-color: rgb(124, 123, 128);
+          padding: 10px;
+      }
+
+      /* Type Selector */
+
+      h1 {
+          font-size: 30px;
+          text-align: center;
+          color: blue;
+          background-color: navajowhite;
+      }
+
+      body {
+          width: 450px;
+          height: auto;
+          background-color: blue;
+          justify-content: center;
+          align-items: center;
+      }
+
+      /* Class Selector */
+      .container {
+          justify-content: center;
+          align-items: center;
+          background-color: lightskyblue;
+
+      }
+
+      /* ID Selector */
+      #email {
+          text-decoration: none;
+
+      }
+
+      /* Child Selector */
+
+      div>p {
+          background-color: navajowhite;
+      }
+
+      /* Descendant Selector */
+
+      p a {
+          background-color: navajowhite;
+          color: blue;
+          text-underline-position: none;
+      }
+
+      /* Adjacent Sibling Selector  */
+       h1+p {
+        font-variant: normal;
+        
+       }
+
+
+      /* General Sibling Selector  */
+
+      div-h1{
+        background-color: aquamarine;
+      }
+
+
+      
